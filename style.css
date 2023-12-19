@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecalho{
+    
+    height:103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #827C8F;   
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+}
+
+.list-menu li>a {
+    font-size: 18px;
+    text-decoration: inherit;
+    color: white;
+}
+
+.perf {
+    height: 379px;
+    margin-right: 40%;
+    margin-top: 10%;
+    position: relative;
+    right: 350px;
+}
+
+.ft-perfil {
+    position: relative;
+    width: 100%; 
+    height: 300px; 
+    margin-right: 40%;
+    margin-left: 15px;
+    margin-top: 5%;
+    left: 750px;
+  }
+  
+  .ft-perfil img {
+    position: absolute;
+    left: 60%;
+    top: 60%; 
+    transform: translate(50%, -50%);
+    width: 230px; 
+    height: auto;
+    border-radius: 30%; 
+    border: 2px dashed #000;
+    border-color: #473E5C;
+  }
+
+.section-perfil {
+    display: flex;
+    background-color: #827C8F;
+}
+
+.ft-perfil, .perf {
+    flex: 1;        
+}
+
+.titulo-apresentacao{
+    font-size: 45px;
+    color: #473E5C;
+}
+
+.titulo-subapresentacao{
+    margin-bottom: 30px;
+    color: #473E5C;
+}
+
+.minha-descricao{
+    font-size: 18px;
+    width: 600px;
+}
+
+.conteiner{
+    margin-left: 15% ;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 750px;  
+}
+
+.lista-formacao{
+    margin-top: 10px;
+    padding-left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloformacao{
+    font-size: 16px;
+    color: #ad77e0;
+    font-weight: 700px;
+}
+
+.linkformacao{
+    color: #4340e9;
+    font-size: 14px;
+}
+
+.titulo-sessao{
+    color: #473E5C;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    background-color: #827C8F;
+    height: 198px;
+}
+
+.listarodape li{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner-rodape{
+    margin-left: 100px;
+}
+
+.fa-square-envelope{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-linkedin{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-github{
+    font-size: 25px;
+    margin-right: 10px;
+}
